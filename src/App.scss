@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-wrapper{
+  box-shadow: 0 0 36px lightgrey;
+  table{
+    thead{
+      height: 60px;
+      background: #bbecc1;
+      vertical-align: middle;
+      tr{
+        th{
+          border-bottom: 4px solid #9ee69e;
+        }
+        th:nth-child(1){
+          width: 6%;
+          text-align: center;
+        }
+        th:nth-child(2){
+          width: 12%;
+          text-align: center;
+        }
+        th:nth-child(3){
+          width: 26%;
+        }
+        th:nth-child(4){
+          width: 24%;
+        }
+        th:nth-child(5){
+          width: 24%;
+        }
+        th:nth-child(6){
+          width: 8%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .button_wrapper{
+    background: rgb(241, 252, 241);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-wrapper{
+    box-shadow: none;
+  }
+}
